@@ -59,6 +59,7 @@ main {
   width: 100%;
   height: calc(100% - 140px);
   gap: 10px;
+  overflow: auto;
 }
 
 .member-vw {
@@ -123,6 +124,13 @@ main {
 }
 
 #arrow2 {
+    color: var(--color-secondary);
+    position: absolute;
+    left: 65px;
+    top: 20px;
+  }
+
+  #arrow3 {
     color: var(--color-secondary);
     position: absolute;
     left: 65px;

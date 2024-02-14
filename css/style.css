@@ -187,5 +187,5 @@ main {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: var(--color-primary);
+  background-color: transparent
 }
